@@ -1,0 +1,70 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+.main-menu {
+	// Change the background color here
+	background-color: #0C1539!important; // Custom background color (blue)
+
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+	// Optional: Style for the menu items
+	.menu-item {
+	  color: #fff; // White text color for better contrast
+	  padding: 10px;
+	  font-size: 16px;
+	  
+	  // Hover effect for menu items
+	  &:hover {
+		background-color: #2980b9; // Darker blue on hover for items
+	  }
+	}
+  }
+  
+
+  .main-menu.menu-light .navigation {
+	// Change the background color here
+	background-color: rgb(8, 20, 56)!important; // Light background color (you can change this)
+  
+
+  
+	// Optional: Style for the menu items inside the navigation
+	.menu-item {
+	  color: #ffffff; // Dark text color for better readability
+	  padding: 10px;
+	  font-size: 16px;
+	  transition: background-color 0.3s ease;
+  
+	  // Hover effect for menu items
+	  &:hover {
+		background-color: #ddd; // Slightly darker background on hover
+		color: #000; // Change text color on hover for better contrast
+	  }
+	}
+  }
+  
+
+  .main-menu.menu-light .navigation li a {
+	color: rgb(255, 255, 255);
+	line-height: 1.45;
+  }
+
+
+  [dir] .flatpickr-calendar .flatpickr-day.selected, [dir] .flatpickr-calendar .flatpickr-day.selected:hover {
+	background: #0C1539!important;
+	border-color: #0C1539!important;
+  }
+
+
+  .icon-box::before{
+	display: none;
+  }
