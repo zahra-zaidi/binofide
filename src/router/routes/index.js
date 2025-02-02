@@ -34,6 +34,8 @@ const Error = lazy(() => import("../../views/Error"));
 const Hrview = lazy(() => import ("../../views/Hrview"));
 const Seniorproductdesigner = lazy (() => import ("../../views/SeniorProductDesigner"));
 const EmployeeInformation = lazy (() => import ("../../views/EmployeeInformation"));
+const ApplyNow = lazy(() => import ("../../views/Applynow"));
+
 // ** Merge Routes
 const Routes = [
   {
@@ -97,6 +99,14 @@ const Routes = [
   {
     path: "/employeeinfo",
     element: <EmployeeInformation />,
+    meta: {
+      layout: "blank",
+    },
+  },
+
+  {
+    path: "/applynow",
+    element: <ApplyNow />,
     meta: {
       layout: "blank",
     },
